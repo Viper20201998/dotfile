@@ -1,0 +1,13 @@
+
+
+xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x1080 --output HDMI-1 --mode 1920x1080 --pos 0x0 &
+volumeicon &
+udiskie -t &
+nm-applet &
+setxkbmap us &
+feh --bg-scale /home/viper/fondo.jpg &
+picom &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+numlockx on &
+lxqt-powermanagement &
+optimus-manager-qt &
